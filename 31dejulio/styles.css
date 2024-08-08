@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* HOMOFOBIA EN MEXICO 
+main{
+    padding: 8rem 2 rem;
+    border: 11px black solid;
+    margin: 5rem;
+    border-radius: 2rem;
+} */
+
+/* Ejemplos de class y id 
+
+.parrafo {
+    line-height: 1.5;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*/
+
+/* Css grid, mi reticula */
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+header{
+    background-color: skyblue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+main{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 1rem;
+}
+footer{
+    background-color: deepskyblue;
+    padding: 2rem;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+/* Estilos tipograficos */
+h1{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+
+}
+p{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding-bottom: 1rem;
+}
+/* Estilos navegacion */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem 1rem;
+    font-family: "Lobster", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+}
+header a {
+    text-decoration: none;
+    color: blanchedalmond;
+    transition: all .3s ease 0s;
+}
+header a:hover {
+    color: indianred;
+}
+figcaption {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 200;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+pre, cite {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    line-height: 2;
+}
+/* Estilo imagenes */
+
+img{
+    object-fit: cover;
+    width: 100;
+}
+#logo {
+    width: 120px;
+}
