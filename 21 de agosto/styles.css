@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=New+Amsterdam&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Estilos tipograficos */
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  p, li {
+    line-height: 1.6;
+  }
+
+  figcaption {
+    font-size: .6rem;
+  }
+h1, h2, ul, p, figure {
+    padding: 1rem;
+}
+  /* Columnas */
+
+  .columnas {
+    columns: 3 400px;
+  }
+
+  /* Imagenes */
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .clip-me {
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  }
+  .clip-otro {
+    width: 50%;
+    float: left;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    shape-outside: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    
+  }
